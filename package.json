@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
-  "author": "Leonardo-oscar-barajas",
+  "author": "Leonardo Ramos/Oscar Barajas <leo.ramos.ari@gmail.com> ",
   "license": "MIT",
   "dependencies": {
     "svelte": "^3.22.2"
