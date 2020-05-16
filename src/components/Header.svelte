@@ -13,6 +13,7 @@
     background-color: white;
     position: fixed;
     width: 100%;
+    z-index: 10;
   }
   .Header-container {
     grid-template-columns: minmax(auto, 936px);
