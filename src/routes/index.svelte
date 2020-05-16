@@ -10,14 +10,14 @@
 </script>
 
 <script>
-  /* se elimina por agregar el modulo import { onMount } from "svelte"; */
+  /* se elimina por agregar el modulo import { onMount } from "svelte" ; */
   import Header from "../components/Header.svelte";
   import Main from "../components/Main.svelte";
   import Sidebar from "../components/Sidebar.svelte";
   import TimeLine from "../components/TimeLine.svelte";
   export let data;
 
-  /* se elimina por agregar el modulo  let data = {};
+  /* Se elimina por agregar el modulo  let data = {};
   const API = "https://us-central1-pugstagram-co.cloudfunctions.net/data";
 
   onMount(async () => {
