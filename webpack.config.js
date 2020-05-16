@@ -34,17 +34,17 @@ module.exports = {
     plugins: [
       new webpack.DefinePlugin({
         'process.browser': true,
-        'process.env.NODE_EN': JSON.stringify(mode)
+        'process.env.NODE_ENV': JSON.stringify(mode)
       }),
     ].filter(Boolean),
-    devTool: dev && 'inline-source-map'
+    devtool: dev && 'inline-source-map'
   },
   server: {
     entry: config.server.entry(),
     output: config.server.output(),
     target: 'node',
     resolve: { alias, extensions, mainFields },
-    externals: Object.keys(pkd.dependencies).concat('encoding'),
+    externals: Object.keys(pkg.dependencies).concat('encoding'),
     module: {
       rules: [
         {

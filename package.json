@@ -15,19 +15,12 @@
     "compression": "^1.7.4",
     "polka": "^0.5.2",
     "sapper-environment": "^1.0.1",
-    "sirv": "^0.4.2",
-    "svelte": "^3.22.2"
+    "sirv": "^0.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/polyfill": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.3.0",
+    "svelte": "^3.22.2",
     "sapper": "^0.27.13",
     "svelte-loader": "^2.13.6",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^4.43.0"
   }
 }
